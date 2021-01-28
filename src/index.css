@@ -193,12 +193,69 @@ code {
 
 /* Detail Section  */
 .detail-section {
-  min-height: 50vh;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .detail-img-card {
-  background-image: url("https://images.pexels.com/photos/2878741/pexels-photo-2878741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  width: 500px;
-  height: 300px;
+  background-image: url("https://images.pexels.com/photos/2403391/pexels-photo-2403391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  width: 400px;
+  height: 500px;
   background-size: cover;
   background-position: center center;
+  border-radius: 5px;
+}
+.detail-text-card {
+  min-height: 500px;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: -200px;
+  border-radius: 5px;
+  background-color: #f5c885c5;
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(54, 40, 13);
+}
+.detail-text-card h3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+.detail-text-card div {
+  margin: 20px;
+}
+.detail-text-card h6 {
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: rgb(54, 40, 13);
+}
+
+.detail-text-card span {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .detail-section {
+    margin: 10px;
+    flex-direction: column;
+  }
+  .detail-img-card {
+    width: 300px;
+    height: 400px;
+    margin-bottom: -60px;
+    z-index: 1;
+  }
+  .detail-text-card {
+    width: 400px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 0px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .detail-text-card {
+    width: 350px;
+  }
 }

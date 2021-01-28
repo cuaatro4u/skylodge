@@ -17,6 +17,7 @@ function TopComponent() {
               A responsive navigation header, including support for branding,
               navigation, and more.
             </p>
+            <hr className="hr-yellow" />
           </div>
           <div className="btn-container">
             <button className="btn btn-custom shadow">Contact Now</button>
