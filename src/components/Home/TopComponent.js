@@ -7,10 +7,10 @@ function TopComponent() {
   return (
     <div>
       <Row>
-        <Col xs={12} md={6} className="img-top">
+        <Col xs={12} lg={6} className="img-top">
           <img alt="..." src={topPhoto} className="img-fluid" />
         </Col>
-        <Col xs={12} md={6} className="top-details">
+        <Col xs={12} lg={6} className="top-details">
           <div className="text-container text-center">
             <h2>Choosing Quality Food</h2>
             <p>
@@ -24,16 +24,16 @@ function TopComponent() {
               View Menu
             </button>
           </div>
-          <CarouselComponent
-            photoOne="https://images.pexels.com/photos/628776/pexels-photo-628776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            photoTwo="https://images.pexels.com/photos/3850838/pexels-photo-3850838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            photoThree="https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            textOne="Get Delicious Food"
-            textTwo="Some text goes here!"
-            textThree="Some text goes here!"
-          />
         </Col>
       </Row>
+      <CarouselComponent
+        photoOne="https://images.pexels.com/photos/628776/pexels-photo-628776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        photoTwo="https://images.pexels.com/photos/3850838/pexels-photo-3850838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        photoThree="https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        textOne="Get Delicious Food"
+        textTwo="Some text goes here!"
+        textThree="Some text goes here!"
+      />
     </div>
   );
 }

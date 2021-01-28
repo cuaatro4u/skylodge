@@ -24,6 +24,7 @@ function CarouselComponent({
               A responsive navigation header, including support for branding,
               navigation, and more.
             </p>
+            <hr className="hr-yellow" />
           </div>
         </div>
       </Carousel.Item>
@@ -40,6 +41,7 @@ function CarouselComponent({
               A responsive navigation header, including support for branding,
               navigation. and more.
             </p>
+            <hr className="hr-yellow" />
           </div>
         </div>
       </Carousel.Item>
@@ -56,6 +58,7 @@ function CarouselComponent({
               A responsive navigation header. including support for branding,
               navigation. and more.
             </p>
+            <hr className="hr-yellow" />
           </div>
         </div>
       </Carousel.Item>

@@ -53,7 +53,6 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 90vh;
 }
 .top-details h2 {
   font-weight: 700;
@@ -111,11 +110,16 @@ code {
   align-items: center;
   flex-direction: column;
   color: white;
+  padding-left: 20px;
 }
 .carousel-overlay h4 {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 35px;
 }
-
+.hr-yellow {
+  width: 20%;
+  border-top-color: #ffbd59;
+}
 @media screen and (max-width: 500px) {
   .carousel-details {
     min-width: 100vw;
@@ -185,4 +189,16 @@ code {
   .tab-content {
     padding-left: 0px !important;
   }
+}
+
+/* Detail Section  */
+.detail-section {
+  min-height: 50vh;
+}
+.detail-img-card {
+  background-image: url("https://images.pexels.com/photos/2878741/pexels-photo-2878741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
 }
