@@ -120,6 +120,10 @@ code {
   width: 20%;
   border-top-color: #ffbd59;
 }
+.hr-white {
+  width: 2%;
+  border-top-color: black;
+}
 @media screen and (max-width: 500px) {
   .carousel-details {
     min-width: 100vw;
@@ -320,16 +324,68 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: -150px;
 }
-.testimonial-container {
-  overflow: auto;
-  white-space: nowrap;
-}
-.testimonial-card {
-  display: inline-block;
+.testimonial-content {
   min-height: 20vh;
-  min-width: 50vh;
-  border-radius: 5px;
-  margin-left: 10px;
   background-color: whitesmoke;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 5px;
+}
+.testimonial-content h5 {
+  font-family: "Josefin Sans", sans-serif;
+}
+@media screen and (max-width: 500px) {
+  .testimonial {
+    margin-bottom: 0px;
+  }
+}
+
+/* Map  */
+.map {
+  margin-bottom: -8px !important;
+}
+.map-view {
+  width: 100vw;
+  min-height: 50vh;
+}
+
+/* Footer  */
+.footer {
+  min-height: 40vh;
+  background-color: #ffbd59;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer h6 {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-top: 20px;
+}
+.fa {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.footer p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .footer h6 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+  }
 }

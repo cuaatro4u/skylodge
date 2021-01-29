@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 function TestimonialComponent() {
   return (
@@ -14,9 +14,44 @@ function TestimonialComponent() {
           <br />
         </div>
         <div className="testimonial-container">
-          <div className="testimonial-card"></div>
-          <div className="testimonial-card"></div>
-          <div className="testimonial-card"></div>
+          <Row>
+            <Col xs={12} md={6}>
+              <div className="testimonial-content shadow">
+                <h5>
+                  "A responsive navigation header, including support for
+                  branding."
+                </h5>
+                <p> - Jeet Mukherjee</p>
+              </div>
+            </Col>
+            <Col xs={12} md={6}>
+              <div className="testimonial-content shadow">
+                <h5>
+                  "A responsive navigation header, including support for
+                  branding."
+                </h5>
+                <p> - Jeet Mukherjee</p>
+              </div>
+            </Col>
+            <Col xs={12} md={6}>
+              <div className="testimonial-content shadow">
+                <h5>
+                  "A responsive navigation header, including support for
+                  branding."
+                </h5>
+                <p> - Jeet Mukherjee</p>
+              </div>
+            </Col>
+            <Col xs={12} md={6}>
+              <div className="testimonial-content shadow">
+                <h5>
+                  "A responsive navigation header, including support for
+                  branding."
+                </h5>
+                <p> - Jeet Mukherjee</p>
+              </div>
+            </Col>
+          </Row>
         </div>
       </Container>
     </div>
