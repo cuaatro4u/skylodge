@@ -16,7 +16,7 @@ function TestimonialComponent() {
         <div className="testimonial-container">
           <Row>
             <Col xs={12} md={6}>
-              <div className="testimonial-content shadow">
+              <div className="testimonial-content shadow text-center">
                 <h5>
                   "A responsive navigation header, including support for
                   branding."
@@ -25,7 +25,7 @@ function TestimonialComponent() {
               </div>
             </Col>
             <Col xs={12} md={6}>
-              <div className="testimonial-content shadow">
+              <div className="testimonial-content shadow text-center">
                 <h5>
                   "A responsive navigation header, including support for
                   branding."
@@ -34,7 +34,7 @@ function TestimonialComponent() {
               </div>
             </Col>
             <Col xs={12} md={6}>
-              <div className="testimonial-content shadow">
+              <div className="testimonial-content shadow text-center">
                 <h5>
                   "A responsive navigation header, including support for
                   branding."
@@ -43,7 +43,7 @@ function TestimonialComponent() {
               </div>
             </Col>
             <Col xs={12} md={6}>
-              <div className="testimonial-content shadow">
+              <div className="testimonial-content shadow text-center">
                 <h5>
                   "A responsive navigation header, including support for
                   branding."
