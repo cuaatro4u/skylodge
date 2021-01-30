@@ -97,7 +97,7 @@ code {
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 10px;
-  background-position: center top;
+  background-position: center center;
   background-size: cover;
 }
 .carousel-overlay {
@@ -172,8 +172,8 @@ code {
 .img-card {
   min-height: 40vh;
   width: 30vh;
-  background-image: url("https://images.pexels.com/photos/3887985/pexels-photo-3887985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center center;
   border-radius: 5px;
   display: inline-block;
@@ -203,7 +203,7 @@ code {
   justify-content: center;
 }
 .detail-img-card {
-  background-image: url("https://images.pexels.com/photos/2403391/pexels-photo-2403391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("/src/assets/detail-img.jpeg");
   width: 400px;
   height: 500px;
   background-size: cover;

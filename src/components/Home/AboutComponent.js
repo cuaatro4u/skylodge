@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import aboutImg from "../../assets/about-img.jpeg";
 
 function AboutComponent() {
   return (
@@ -21,11 +22,7 @@ function AboutComponent() {
               </div>
             </Col>
             <Col xs={12} md={6} className="about-img">
-              <img
-                src="https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                className="img-fluid shadow"
-                alt="..."
-              />
+              <img src={aboutImg} className="img-fluid shadow" alt="..." />
             </Col>
           </Row>
         </Container>
