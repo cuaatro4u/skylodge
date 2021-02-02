@@ -70,7 +70,11 @@ function SpecialMenuComponent() {
               style={{ backgroundImage: "url(" + mainCourseImgOne + ")" }}
             ></div>
           </Tab>
-          <Tab eventKey="contact" title="Desert" className="tab-card-container">
+          <Tab
+            eventKey="contact"
+            title="Dessert"
+            className="tab-card-container"
+          >
             <div
               className="img-card shadow"
               style={{ backgroundImage: "url(" + desertOne + ")" }}
