@@ -20,7 +20,12 @@ function DetailComponent() {
           </p>
 
           <button className="btn btn-custom shadow">Explore More</button>
-          <button className="btn btn-custom-outlined shadow">
+          <button
+            className="btn btn-custom-outlined shadow"
+            onClick={() => {
+              window.open("tel:9673628734");
+            }}
+          >
             Contact Now
           </button>
           <br />

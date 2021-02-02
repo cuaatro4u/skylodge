@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import avatar from "../../assets/avatar.png";
 
 function TeamComponent() {
   return (
@@ -8,7 +9,7 @@ function TeamComponent() {
         <Row>
           <Col xs={12} md={6}>
             <img
-              src="https://www.w3schools.com/howto/img_avatar.png"
+              src={avatar}
               alt="..."
               className="img-fluid team-photo shadow"
             />
@@ -16,10 +17,10 @@ function TeamComponent() {
           <Col xs={12} md={6}>
             <div className="about-text">
               <h6>TEAM</h6>
-              <h1>John Doe</h1>
+              <h1>Mirajul Islam</h1>
               <p>
-                A responsive navigation header, including support for branding,
-                navigation, and more.
+                Hi, welcome to the official website of Sky Lodge. For any
+                queries you can reach us out.
               </p>
               <b>
                 "A responsive navigation header, including support for
@@ -27,7 +28,14 @@ function TeamComponent() {
               </b>
               <br />
               <br />
-              <button className="btn btn-custom">Reach Out</button>
+              <button
+                className="btn btn-custom"
+                onClick={() => {
+                  window.open("tel:9673628734");
+                }}
+              >
+                Reach Out
+              </button>
               <br />
               <hr className="hr-yellow float-left" />
             </div>

@@ -23,10 +23,17 @@ function TopComponent() {
             <hr className="hr-yellow" />
           </div>
           <div className="btn-container">
-            <button className="btn btn-custom shadow">Contact Now</button>
-            <button className="btn btn-custom-outlined shadow">
-              View Menu
+            <button
+              className="btn btn-custom shadow"
+              onClick={() => {
+                window.open("tel:9673628734");
+              }}
+            >
+              Contact Now
             </button>
+            <a className="btn btn-custom-outlined shadow" href="#specialmenu">
+              View Menu
+            </a>
           </div>
         </Col>
       </Row>
@@ -35,8 +42,8 @@ function TopComponent() {
         photoTwo={two}
         photoThree={three}
         textOne="Get Delicious Food"
-        textTwo="Some text goes here!"
-        textThree="Some text goes here!"
+        textTwo="Experience Nature With Food"
+        textThree="Enjoy With Family & Friends"
       />
     </div>
   );

@@ -5,7 +5,7 @@ import aboutImg from "../../assets/about-img.jpeg";
 function AboutComponent() {
   return (
     <>
-      <div className="about">
+      <div className="about" id="about">
         <Container>
           <Row>
             <Col xs={12} md={6}>
@@ -32,20 +32,17 @@ function AboutComponent() {
           <Row>
             <Col xs={12} md={3}>
               <b>Address</b>
-              <p>
-                A responsive navigation header, including support for branding,
-                navigation, and more.
-              </p>
+              <p>Haroa, near by Haroa Bridge North 24 Parganas</p>
               <br />
               <b>Contact</b>
-              <p>+91 8001268005</p>
+              <p>+91 9673628734</p>
             </Col>
             <Col xs={12} md={3}>
               <b>Lunch Service</b>
-              <p>A responsive navigation header.</p>
+              <p>Experience a great lunch with your family & friends.</p>
               <br />
               <b>Dinner Service</b>
-              <p>Including support for branding, navigation, and more.</p>
+              <p>The exellence of our food will give you a vivid experience.</p>
             </Col>
           </Row>
         </Container>

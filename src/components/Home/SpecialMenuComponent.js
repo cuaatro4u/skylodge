@@ -19,7 +19,7 @@ import desertTwo from "../../assets/desert/desertTwo.jpeg";
 
 function SpecialMenuComponent() {
   return (
-    <div className="special-menu">
+    <div className="special-menu" id="specialmenu">
       <div className="sm-details">
         <h6>Special Menu</h6>
         <h1>Delicious Flavour of Cuisine</h1>
