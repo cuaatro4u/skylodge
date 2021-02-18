@@ -8,7 +8,7 @@ function TestimonialComponent() {
         <div className="about-text">
           <h6>Testimonial</h6>
           <h1>Customer Thoughts</h1>
-          <p>A responsive navigation header, including support for branding.</p>
+          {/* <p>A responsive navigation header, including support for branding.</p> */}
           <hr className="hr-yellow float-left" />
           <br />
           <br />
@@ -18,37 +18,39 @@ function TestimonialComponent() {
             <Col xs={12} md={6}>
               <div className="testimonial-content shadow text-center">
                 <h5>
-                  "A responsive navigation header, including support for
-                  branding."
+                  "Excellent food and we'll environment. Really best restaurant
+                  at Haroa. Thanks Sky Lounge!!"
                 </h5>
-                <p> - Jeet Mukherjee</p>
+                <p> - Saif Islam</p>
               </div>
             </Col>
             <Col xs={12} md={6}>
               <div className="testimonial-content shadow text-center">
                 <h5>
-                  "A responsive navigation header, including support for
-                  branding."
+                  "Wonderful experience... quality food with reasonable price.
+                  Decorated roof but bare...so a big problem for rainy season
+                  and summer."
                 </h5>
-                <p> - Jeet Mukherjee</p>
+                <p> - Bhaktilata Das</p>
               </div>
             </Col>
             <Col xs={12} md={6}>
               <div className="testimonial-content shadow text-center">
                 <h5>
-                  "A responsive navigation header, including support for
-                  branding."
+                  "This is a very good place. You will get very quality food at
+                  low price."
                 </h5>
-                <p> - Jeet Mukherjee</p>
+                <p> - Bitanu Biswas</p>
               </div>
             </Col>
             <Col xs={12} md={6}>
               <div className="testimonial-content shadow text-center">
                 <h5>
-                  "A responsive navigation header, including support for
-                  branding."
+                  "Affordable price Hygienic Food quality Best part of the
+                  resturent is You have to wash your hands with warm water
+                  before and after eating."
                 </h5>
-                <p> - Jeet Mukherjee</p>
+                <p> - Shahriyar Hamid</p>
               </div>
             </Col>
           </Row>

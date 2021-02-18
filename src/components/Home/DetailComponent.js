@@ -9,17 +9,24 @@ function DetailComponent() {
         <div>
           <h6>SPECIAL OFFER</h6>
           <p>
-            <b>"A responsive navigation header."</b>
+            <b>"An evening experience is recommended"</b>
           </p>
           <p>
-            A responsive navigation header, including support for branding,
-            navigation, and more.
+            Yes we do provide something more than food. & that is experience. So
+            visiting our restrurant will not disappoint you.
             <br />
-            <span className="float-right"> - Sky Lodge</span>
+            <span className="float-right"> - Sky Lounge</span>
             <br />
           </p>
 
-          <button className="btn btn-custom shadow">Explore More</button>
+          <button
+            className="btn btn-custom shadow"
+            onClick={() => {
+              window.open("tel:9673628734");
+            }}
+          >
+            Explore More
+          </button>
           <button
             className="btn btn-custom-outlined shadow"
             onClick={() => {

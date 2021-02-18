@@ -15,11 +15,8 @@ function TopComponent() {
         </Col>
         <Col xs={12} lg={6} className="top-details">
           <div className="text-container text-center">
-            <h2>Choosing Quality Food</h2>
-            <p>
-              A responsive navigation header, including support for branding,
-              navigation, and more.
-            </p>
+            <h2>Get Delicious Food</h2>
+            <p>Sky Lounge</p>
             <hr className="hr-yellow" />
           </div>
           <div className="btn-container">

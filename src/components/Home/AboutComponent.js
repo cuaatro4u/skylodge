@@ -13,10 +13,14 @@ function AboutComponent() {
                 <h6>About Us</h6>
                 <h1>The Food's Master Say About Us</h1>
                 <p>
-                  A responsive navigation header, including support for
-                  branding, navigation, and more. navigation, and more.A
-                  responsive navigation header, including support for branding,
-                  navigation, and more. navigation, and more.
+                  HE SOON REALIZED THAT IT WAS COOKING IN HIS OWN UNIQUE STYLE
+                  (WITHOUT ANY FORMAL TRAINING IN THE SAME) THAT GAVE HIM A
+                  SENSE OF SATISFACTION AND THE WIDESPREAD APPRECIATION OF HIS
+                  PATRONS AND PEERS FUELLED HIS PASSION EVEN FURTHER. HE HAS
+                  NEVER SINCE LOOKED BACK AND HAS DEVOTED HIS ENTIRE LIFETIME
+                  TOWARDS THIS PASSION OF HIS WHICH HAS EARNED HIM THE LOVE OF
+                  HIS PATRONS, RESPECT OF HIS PEERS IN THE INDUSTRY AND
+                  WORLDWIDE ACCLAIM AND MANY AWARDS.
                 </p>
                 <hr className="hr-yellow float-left" />
               </div>

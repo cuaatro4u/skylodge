@@ -23,10 +23,6 @@ function SpecialMenuComponent() {
       <div className="sm-details">
         <h6>Special Menu</h6>
         <h1>Delicious Flavour of Cuisine</h1>
-        <p>
-          A responsive navigation header, including support for branding,
-          navigation, and more.
-        </p>
       </div>
       <div className="menu-tab">
         <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">

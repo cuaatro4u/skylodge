@@ -19,13 +19,10 @@ function TeamComponent() {
               <h6>TEAM</h6>
               <h1>Mirajul Islam</h1>
               <p>
-                Hi, welcome to the official website of Sky Lodge. For any
+                Hi, welcome to the official website of Sky Lounge. For any
                 queries you can reach us out.
               </p>
-              <b>
-                "A responsive navigation header, including support for
-                branding."
-              </b>
+              <b>Sky Lounge</b>
               <br />
               <br />
               <button

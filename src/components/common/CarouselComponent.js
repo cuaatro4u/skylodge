@@ -20,10 +20,7 @@ function CarouselComponent({
         >
           <div className="carousel-overlay">
             <h4>{textOne}</h4>
-            <p>
-              A responsive navigation header, including support for branding,
-              navigation, and more.
-            </p>
+            <p>We provide best food with natural experience.</p>
             <hr className="hr-yellow" />
           </div>
         </div>
@@ -37,10 +34,8 @@ function CarouselComponent({
         >
           <div className="carousel-overlay">
             <h4>{textTwo}</h4>
-            <p>
-              A responsive navigation header, including support for branding,
-              navigation. and more.
-            </p>
+            <p>We provide best food with natural experience.</p>
+
             <hr className="hr-yellow" />
           </div>
         </div>
@@ -54,10 +49,8 @@ function CarouselComponent({
         >
           <div className="carousel-overlay">
             <h4>{textThree}</h4>
-            <p>
-              A responsive navigation header. including support for branding,
-              navigation. and more.
-            </p>
+            <p>We provide best food with natural experience.</p>
+
             <hr className="hr-yellow" />
           </div>
         </div>

@@ -4,7 +4,7 @@ import { Navbar } from "react-bootstrap";
 function FooterComponent() {
   return (
     <footer className="footer">
-      <Navbar.Brand href="/">Sky Lodge</Navbar.Brand>
+      <Navbar.Brand href="/">Sky Lounge</Navbar.Brand>
       <h6> Home | About | Contact | Menu</h6>
       <div className="social-icon">
         <span className="fa fa-facebook-square"></span>
