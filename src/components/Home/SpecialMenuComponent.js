@@ -545,7 +545,7 @@ function SpecialMenuComponent() {
     },
     {
       id: 2,
-      name: "Milk Shake",
+      name: "Milkshake",
       db_name: "milkShake",
     },
     {
