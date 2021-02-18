@@ -255,6 +255,7 @@ code {
 }
 .detail-text-card h3 {
   font-family: "Josefin Sans", sans-serif;
+  margin-top: 30px !important;
 }
 .detail-text-card div {
   margin: 20px;
